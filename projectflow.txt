@@ -1,0 +1,7 @@
+1. Create a new conda environment : conda create -n mlops_learning python==3.12.1
+2. Activate conda environment : conda activate mlops_learning
+3. Install mlflow : pip install mlflow
+4. Install cookiecutter datascience : pip install cookiecutter-data-science
+5. run cookiecutter for creating a template for our project : cookiecutter -c v1 https://github.com/drivendata/cookiecutter-data-science
+6. move all files (except readme, license, and .gitignore) inside cookiecutter to the repo and delete the actual cookiecutter project
+7. rename src.models to src.model
