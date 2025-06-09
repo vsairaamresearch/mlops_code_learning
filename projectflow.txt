@@ -5,3 +5,6 @@
 5. run cookiecutter for creating a template for our project : cookiecutter -c v1 https://github.com/drivendata/cookiecutter-data-science
 6. move all files (except readme, license, and .gitignore) inside cookiecutter to the repo and delete the actual cookiecutter project
 7. rename src.models to src.model
+8. git add, commit, push
+9. connect to dashboard on dagshub
+10. install dabgshub in local machine : pip install dagshub
